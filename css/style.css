@@ -240,7 +240,7 @@ p {
 }
 .bar-grids h4 {
     font-size: 1.6em;
-    color: #1dadd3;
+    color: #fff;
     margin-bottom: 1.5em;
     border-bottom: 1px dashed #484848;
     padding-bottom: 0.5em;
@@ -260,7 +260,7 @@ p {
     border-radius: 0;
 }
 .progress-bar { 
-    background-color: #b3315d;
+    background-color: #ffa500;
 }
 .bar-grids h6 {
     font-size: 1em;
@@ -284,10 +284,10 @@ p {
 .experience-left {
     float: left;
     width: 30%;
-    background: #ec407a;
+    background: #ffa500;
     text-align: center;
     padding: 2em 0;
-    border: 2px solid #ec407a;
+    border: 2px solid #ffa500;
 	-webkit-transition: .5s all;
 	-moz-transition: .5s all;
 	transition: .5s all;
@@ -297,7 +297,7 @@ p {
 .experience-right {
     float: right;
     width: 70%;
-    border: 1px solid #ec407a;
+    border: 1px solid #ffa500;
 	padding: 1.5em;
 }
 .experience-left h3 {
@@ -313,7 +313,7 @@ p {
 }
 .experience-right h4 {
     font-size: 1.6em;
-    color: #1dadd3;
+    color: #fff;
     margin-bottom: 0.5em;
 	font-weight: 900;
 }
@@ -422,7 +422,7 @@ p {
 	position: relative;
 }
 .styled-input label {
-    color: #1dadd3;
+    color: #fff;
     padding: 0.5em .9em;
     position: absolute;
     top: 0;
@@ -440,7 +440,7 @@ p {
 	display: block;
 	width: 0;
 	height:2px;
-	background:#ec407a;
+	background:#ffa500;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -453,7 +453,7 @@ p {
 }
 .styled-input input:focus ~ label, .styled-input input:valid ~ label,.styled-input textarea:focus ~ label ,.styled-input textarea:valid ~ label{
     font-size: 1.1em;
-    color: #ec407a;
+    color: #ffa500;
     top: -1.3em;
     -webkit-transition: all 0.125s;
 	-moz-transition: all 0.125s; 
@@ -478,8 +478,8 @@ p {
     font-size: 1em;
     margin: 1em 0 0 0;
     -webkit-appearance: none;
-    background: #ec407a;
-    border: solid 1px #ec407a; 
+    background: #ffa500;
+    border: solid 1px #ffa500; 
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
 	-o-border-radius: 3px;
@@ -492,8 +492,9 @@ p {
 	transition: 0.5s all;
 }
 .contact input[type="submit"]:hover { 
-	background-color:#1dadd3;
-	border-color:#1dadd3;
+    color: #000;
+	background-color:#fff;
+	border-color:#fff;
 } 
 /*-- //contact --*/ 
 /*-- footer --*/
