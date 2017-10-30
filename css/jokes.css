@@ -1,15 +1,6 @@
-.full {
-    background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    height:100%;
-}
-
 .full-width-image {
     height: 500px; /* your specified height */
-    background: url("../images/chucknorris/g5.jpg") no-repeat center center fixed;
+    background: url("../images/chucknorris/0.jpg") no-repeat center center fixed;
     background-size: cover;
     color: white;
     overflow: auto;
@@ -47,6 +38,10 @@
 
 .box_textshadow {
     -webkit-text-stroke: 1px #000; /* stroke color and weight */
+}
+
+.reach-endscreen {
+    padding-bottom: 0;
 }
 
 .fixed-bottom {

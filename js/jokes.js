@@ -12,6 +12,9 @@ function jokeUpdate() {
             $('#joke').replaceWith("<h1 id=\"joke\" class=\"text-right box_textshadow\">" + data["value"]["joke"] + "</h1>");
         else
             $('#joke').replaceWith("<h1 id=\"joke\">" + "Even Chuck Norris can't retrieve jokes from an API that doesn't work right..." + "</h1>");
+
+        var fileNumber = Math.floor(Math.random() * 5);
+        $('.full-width-image').css("background", "url(\"../images/chucknorris/" + fileNumber + ".jpg\") no-repeat center center fixed");
     });
 }
 
