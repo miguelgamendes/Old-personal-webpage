@@ -6,6 +6,9 @@ $(document).ready( function () {
     window.setInterval(progressBar, 10000);
 });
 
+/*
+* Updates jokes by getting them from the ICNDB API regularly
+*/
 function jokeUpdate() {
     $.getJSON('http://api.icndb.com/jokes/random', function(data) {
         if(data["type"] == "success")
@@ -18,6 +21,9 @@ function jokeUpdate() {
     });
 }
 
+/*
+* Updates and animates loading bar to announce when a new joke is coming in
+*/
 function progressBar() {
     var progress = $('.progress');
     var progressBar = $('.progress-bar');
