@@ -1,0 +1,19 @@
+.full-width-image {
+    height: 500px; /* TODO: make this dynamic, and not a static hardcoded value */
+    background: url("../images/0.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    overflow: auto;
+}
+
+.box_textshadow {
+    -webkit-text-stroke: 1px #000; /* stroke color and weight */
+}
+
+.reach-endscreen {
+    padding-bottom: 0;
+}
+
+.fixed-bottom {
+    margin-bottom: 0;
+}
